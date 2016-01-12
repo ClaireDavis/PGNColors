@@ -14,18 +14,15 @@
 +(instancetype)almostBlack;
 +(instancetype)veryDarkGray;
 +(instancetype)mediumDarkGray;
-+(instancetype)darkGray;
 +(instancetype)mediumGray;
-+(instancetype)lightGray;
 +(instancetype)ultraLightGray;
 
 // reds and pinks
 +(instancetype)deepRed;
-+(instancetype)red;
 +(instancetype)candyAppleRed;
 +(instancetype)lightCoral;
++(instancetype)palePink;
 +(instancetype)lightPink;
-+(instancetype)pink;
 +(instancetype)dustyRose;
 +(instancetype)salmon;
 +(instancetype)hotPink;
@@ -49,6 +46,7 @@
 +(instancetype)darkGreen;
 +(instancetype)neonGreen;
 +(instancetype)olive;
++(instancetype)softSeafoam;
 
 // blues
 
@@ -65,6 +63,7 @@
 +(instancetype)darkPurple;
 +(instancetype)lightPlum;
 +(instancetype)orchid;
++(instancetype)lilac;
 
 // whites
 

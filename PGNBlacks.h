@@ -11,11 +11,6 @@
 
 
 @interface PGNBlacks : NSObject
-+(UIColor*)trueBlack;
-+(UIColor*)veryDarkGray;
-+(UIColor*)mediumDarkGray;
-+(UIColor*)darkGray;
-+(UIColor*)trueBlack;
-+(UIColor*)trueBlack;
++(CALayer*)twoColorGradientLayerWithColorOne:(UIColor*)colorOne andColorTwo:(UIColor*)colorTwo;
 
 @end

@@ -17,6 +17,8 @@
 		E2EEBD5B1C3EFD700044083F /* PGNColorsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EEBD5A1C3EFD700044083F /* PGNColorsUITests.m */; };
 		E2EEBD6A1C3EFDAC0044083F /* PGNBlacks.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EEBD691C3EFDAC0044083F /* PGNBlacks.m */; };
 		E2EEBD6D1C3EFF680044083F /* UIColor+PGNColors.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EEBD6C1C3EFF680044083F /* UIColor+PGNColors.m */; };
+		E2EEBD701C4575290044083F /* CAGradientLayer+PGNGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EEBD6F1C4575290044083F /* CAGradientLayer+PGNGradient.m */; };
+		E2EEBD731C457F390044083F /* ColorDisplayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EEBD721C457F390044083F /* ColorDisplayTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		E2EEBD691C3EFDAC0044083F /* PGNBlacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGNBlacks.m; path = ../PGNBlacks.m; sourceTree = "<group>"; };
 		E2EEBD6B1C3EFF680044083F /* UIColor+PGNColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PGNColors.h"; sourceTree = "<group>"; };
 		E2EEBD6C1C3EFF680044083F /* UIColor+PGNColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PGNColors.m"; sourceTree = "<group>"; };
+		E2EEBD6E1C4575290044083F /* CAGradientLayer+PGNGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+PGNGradient.h"; sourceTree = "<group>"; };
+		E2EEBD6F1C4575290044083F /* CAGradientLayer+PGNGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+PGNGradient.m"; sourceTree = "<group>"; };
+		E2EEBD711C457F390044083F /* ColorDisplayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDisplayTableViewController.h; sourceTree = "<group>"; };
+		E2EEBD721C457F390044083F /* ColorDisplayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDisplayTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +117,15 @@
 				E2EEBD391C3EFD700044083F /* AppDelegate.m */,
 				E2EEBD3B1C3EFD700044083F /* ViewController.h */,
 				E2EEBD3C1C3EFD700044083F /* ViewController.m */,
-				E2EEBD681C3EFDAC0044083F /* PGNBlacks.h */,
 				E2EEBD6B1C3EFF680044083F /* UIColor+PGNColors.h */,
 				E2EEBD6C1C3EFF680044083F /* UIColor+PGNColors.m */,
+				E2EEBD681C3EFDAC0044083F /* PGNBlacks.h */,
 				E2EEBD691C3EFDAC0044083F /* PGNBlacks.m */,
+				E2EEBD6E1C4575290044083F /* CAGradientLayer+PGNGradient.h */,
+				E2EEBD6F1C4575290044083F /* CAGradientLayer+PGNGradient.m */,
 				E2EEBD3E1C3EFD700044083F /* Main.storyboard */,
+				E2EEBD711C457F390044083F /* ColorDisplayTableViewController.h */,
+				E2EEBD721C457F390044083F /* ColorDisplayTableViewController.m */,
 				E2EEBD411C3EFD700044083F /* Assets.xcassets */,
 				E2EEBD431C3EFD700044083F /* LaunchScreen.storyboard */,
 				E2EEBD461C3EFD700044083F /* Info.plist */,
@@ -280,7 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2EEBD731C457F390044083F /* ColorDisplayTableViewController.m in Sources */,
 				E2EEBD3D1C3EFD700044083F /* ViewController.m in Sources */,
+				E2EEBD701C4575290044083F /* CAGradientLayer+PGNGradient.m in Sources */,
 				E2EEBD3A1C3EFD700044083F /* AppDelegate.m in Sources */,
 				E2EEBD371C3EFD700044083F /* main.m in Sources */,
 				E2EEBD6D1C3EFF680044083F /* UIColor+PGNColors.m in Sources */,

@@ -27,24 +27,14 @@
   return [UIColor colorWithRed:0.188 green:0.188 blue:0.188 alpha:1];
 }
 
-+(instancetype)darkGray
-{
-  return [UIColor colorWithRed:0 green:0.212 blue:0.212 alpha:1];
-}
-
 +(instancetype)mediumGray
 {
- return [UIColor colorWithRed:0 green:0.302 blue:0.302 alpha:1];
-}
-
-+(instancetype)lightGray
-{
-  return [UIColor colorWithRed:0.49 green:0.49 blue:0.49 alpha:1];
+ return [UIColor colorWithRed:0.498 green:0.498 blue:0.498 alpha:1];
 }
 
 +(instancetype)ultraLightGray
 {
-  return [UIColor colorWithRed:0.878 green:0.878 blue:0.878 alpha:1];
+  return [UIColor colorWithRed:0.898 green:0.898 blue:0.898 alpha:1];
 }
 
 
@@ -55,14 +45,10 @@
   return [UIColor colorWithRed:0.545 green:0 blue:0 alpha:1];
 }
 
-+(instancetype)red
-{
-  return [UIColor colorWithRed:0.933 green:0 blue:0 alpha:1];
-}
 
 +(instancetype)candyAppleRed
 {
-  return [UIColor colorWithRed:0 green:1 blue:0 alpha:1];
+  return [UIColor colorWithRed:1 green:0.188 blue:0.188 alpha:1];
 }
 
 +(instancetype)lightCoral
@@ -70,12 +56,12 @@
   return [UIColor colorWithRed:0.941 green:0.502 blue:0.502 alpha:1];
 }
 
-+(instancetype)lightPink
++(instancetype)palePink
 {
-  return [UIColor colorWithRed:0 green:1 blue:0.714 alpha:1];
+  return [UIColor colorWithRed:1 green:0.894 blue:0.882 alpha:1];
 }
 
-+(instancetype)pink
++(instancetype)lightPink
 {
   return [UIColor colorWithRed:1 green:0.71 blue:0.773 alpha:1];
 }
@@ -92,7 +78,7 @@
 
 +(instancetype)hotPink
 {
-  return [UIColor colorWithRed:1 green:0.412 blue:0.706 alpha:1];
+  return [UIColor colorWithRed:0.969 green:0.18 blue:0.514 alpha:1];
 }
 
 +(instancetype)lightBurntRed
@@ -108,7 +94,7 @@
 
 +(instancetype)orangeRed
 {
-  return [UIColor colorWithRed:0 green:1 blue:0.271 alpha:1];
+  return [UIColor colorWithRed:0.933 green:0.325 blue:0.063 alpha:1];
 }
 
 // yellows
@@ -119,12 +105,12 @@
 
 +(instancetype)paleYellow
 {
-  return 	[UIColor colorWithRed:0 green:0.933 blue:0.91 alpha:1];
+  return 	[UIColor colorWithRed:0.988 green:0.961 blue:0.514 alpha:1];
 }
 
 +(instancetype)gold
 {
-  return [UIColor colorWithRed:0 green:1 blue:0.725 alpha:1];
+  return [UIColor colorWithRed:0.925 green:0.894 blue:0.216 alpha:1];
 }
 
 // greens
@@ -146,7 +132,7 @@
 
 +(instancetype)darkGreen
 {
-  return [UIColor colorWithRed:0.329 green:0.545 blue:0.329 alpha:1];
+  return [UIColor colorWithRed:0.051 green:0.204 blue:0.027 alpha:1];
 }
 
 +(instancetype)neonGreen
@@ -156,7 +142,12 @@
 
 +(instancetype)olive
 {
-  return [UIColor colorWithRed:0.42 green:0.557 blue:0.137 alpha:1];
+  return [UIColor colorWithRed:0.38 green:0.333 blue:0.153 alpha:1];
+}
+
++(instancetype)softSeafoam
+{
+  return [UIColor colorWithRed:0.659 green:0.886 blue:0.804 alpha:1];
 }
 
 // blues
@@ -173,7 +164,7 @@
 
 +(instancetype)steelBlue
 {
-  return [UIColor colorWithRed:0.69 green:0.769 blue:0.871 alpha:1];
+  return [UIColor colorWithRed:0.59 green:0.759 blue:0.891 alpha:1];
 }
 
 +(instancetype)mediumBlue
@@ -210,6 +201,11 @@
 +(instancetype)orchid
 {
   return [UIColor colorWithRed:0.855 green:0.439 blue:0.839 alpha:1];
+}
+
++(instancetype)lilac
+{
+  return [UIColor colorWithRed:0.843 green:0.824 blue:0.949 alpha:1];
 }
 
 // whites

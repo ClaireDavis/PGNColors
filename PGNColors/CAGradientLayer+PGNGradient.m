@@ -1,24 +1,24 @@
 //
-//  PGNBlacks.m
+//  CAGradientLayer+PGNGradient.m
 //  PGNColors
 //
-//  Created by Claire Davis on 1/7/16.
+//  Created by Claire Davis on 1/12/16.
 //  Copyright © 2016 Davis. All rights reserved.
 //
 
-#import "PGNBlacks.h"
+#import "CAGradientLayer+PGNGradient.h"
 
-@implementation PGNBlacks
+@implementation CAGradientLayer (PGNGradient)
 
-+(CALayer*)twoColorGradientLayerWithColorOne:(UIColor*)colorOne andColorTwo:(UIColor*)colorTwo
++(CAGradientLayer*)twoColorGradientLayerWithColorOne:(UIColor*)colorOne andColorTwo:(UIColor*)colorTwo
 {
   CAGradientLayer *gradientLayer = [CAGradientLayer layer];
   gradientLayer.colors = [NSArray arrayWithObjects: (id)colorOne.CGColor, (id)colorTwo.CGColor, nil];
-
+  
   return gradientLayer;
 }
 
-+(CALayer*)threeColorGradientLayerWithColorOne:(UIColor*)colorOne colorTwo:(UIColor*)colorTwo andColorThree:(UIColor*)colorThree
++(CAGradientLayer*)threeColorGradientLayerWithColorOne:(UIColor*)colorOne colorTwo:(UIColor*)colorTwo andColorThree:(UIColor*)colorThree
 {
   CAGradientLayer *gradientLayer = [CAGradientLayer layer];
   gradientLayer.colors = [NSArray arrayWithObjects: (id)colorOne.CGColor, (id)colorTwo.CGColor, (id)colorThree.CGColor ,nil];

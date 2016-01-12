@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIColor+PGNColors.h"
+#import "CAGradientLayer+PGNGradient.h"
 
 @interface ViewController ()
 
@@ -19,8 +20,10 @@
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
   
-  UILabel *label = [[UILabel alloc]init];
-  label.textColor = [UIColor candyAppleRed];
+  CAGradientLayer *background = [CAGradientLayer twoColorGradientLayerWithColorOne:[UIColor blueColor] andColorTwo:[UIColor midnightBlue]];
+  background.frame = self.view.frame;
+  [self.view.layer addSublayer:background];
+  
 }
 
 - (void)didReceiveMemoryWarning {
