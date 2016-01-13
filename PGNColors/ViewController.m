@@ -20,7 +20,9 @@
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
   
-  CAGradientLayer *background = [CAGradientLayer twoColorGradientLayerWithColorOne:[UIColor blueColor] andColorTwo:[UIColor midnightBlue]];
+//  CAGradientLayer *background = [CAGradientLayer twoColorGradientLayerWithColorOne:[UIColor skyBlue] andColorTwo:[UIColor lightBlue]];
+  CAGradientLayer *background = [CAGradientLayer threeColorGradientLayerWithColorOne:[UIColor skyBlue] colorTwo:[UIColor lightBlue] andColorThree:[UIColor linen]];
+  
   background.frame = self.view.frame;
   [self.view.layer addSublayer:background];
   

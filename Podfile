@@ -7,7 +7,7 @@
 
 target 'PGNColors' do
 
-
+pod 'PGNColors'
 end
 
 target 'PGNColorsTests' do
