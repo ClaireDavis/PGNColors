@@ -24,6 +24,9 @@
   background.frame = self.view.frame;
   [self.view.layer addSublayer:background];
   
+  [UIColor colorWithHex:0x8BAB86];
+  
+  
 }
 
 - (void)didReceiveMemoryWarning {
